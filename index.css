@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: #9D4BEB;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content:space-between;
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: white;
+}
+
+.logo div{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.menu_item{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.menu_item a{
+    color: white;
+    text-decoration: none;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.info div{
+    display: flex;
+    font-size: 14px;
+}
+
+.callbutton{
+    background-image: linear-gradient(rgb(148, 71, 148));
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    /* height: 40px;
+    width: 200px; */
+}
+/* banner */
+.banner{
+    background-color:rgb(48, 48, 44);
+    height: 90vh;
+    width: 100%;
+
+}
+ .banner_info {
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+    display: flex;
+    gap:10px;
+ }
+ .banner_info div {
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    height: fit-content;
+
+
+ }
+ .learn_button{
+    height: fit-content;
+    width: fit-content;
+    background-color: #04D2Cb;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+
+ }
+
